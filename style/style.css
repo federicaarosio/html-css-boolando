@@ -126,6 +126,10 @@ article.product span.sustainability {
 
 }
 
+article.product span.no-sale {
+  left: 0;
+}
+
 article.product span.like {
   position: absolute;
   z-index: 2;
