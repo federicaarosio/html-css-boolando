@@ -4,3 +4,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Test */
+.border-test {
+  border: 3px dashed lightgreen ;
+}
+
+/* Generali e flex */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+/* Header */
+.navigation {
+  background-color: red;
+  height: 3rem;
+
+  margin-bottom: 3rem;
+}
+
+.header-container {
+  height: 3rem;
+  /* Momentaneamente stessa altezza di .navigation */
+}
+
+
+
+/* Main */
+main section.container {
+  min-height: 900px;
+  background-color: darkorange;
+
+  margin-bottom: 3rem;
+}
+
+
+
+/* Footer */
+.footer-nav {
+  background-color: red;
+  height: 3rem;
+}
+
+.footer-container {
+  height: 3rem;
+  /* Momentaneamente stessa altezza di footer */
+}
