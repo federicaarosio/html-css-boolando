@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Test */
 .border-test {
   border: 3px dashed lightgreen ;
@@ -82,30 +86,58 @@ article.product {
   position: relative;
 }
 
-article.product span.sale {
+article.product span.sale,
+article.product span.sustainability {
+  color: white;
+  font-size: .7rem;
+  font-weight: bold;
   position: absolute;
-  bottom: 0;
+  bottom: 2rem;
+  padding: .2rem;
+}
+
+article.product span.sale {
   left:0;
   background-color: red;
-  color: white;
+}
+
+article.product span.sustainability {
+  left: 2.5rem;
+  background-color: green;
+
 }
 
 article.product span.like {
   position: absolute;
-  top: 0;
+  top: .5rem;
   right:0;
   background-color: white;
 }
 
-article.product span.sustainability {
-  position: absolute;
-  bottom: 0;
-  left: 50px;
-  background-color: green;
-}
-
 article.product img{
   width: 100%;
+}
+
+div .brand-name {
+  font-size: small;
+}
+
+div .product-type {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+div .price {
+  font-size: small;
+  color: red;
+  font-weight: bold;
+}
+
+div span.line-through {
+  color: black;
+  font-weight: 400;
+  text-decoration: line-through;
+  margin-left: .2rem;
 }
 
 /* Footer */
