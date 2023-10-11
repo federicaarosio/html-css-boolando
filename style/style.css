@@ -61,12 +61,11 @@ ul {
 }
 
 header li {
-  /* line-height: 3rem; */
   margin-right: 1rem;
 }
 
 .logo {
-    height: 70%;
+    height: 50%;
 
 }
 
@@ -137,7 +136,14 @@ article.product span.like {
   right:0;
   font-size: 1.6rem;
   background-color: white;
-  padding: .4rem 0.7rem;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+article.product span.like:hover {
+  color: red;
 }
 
 article.product img{
