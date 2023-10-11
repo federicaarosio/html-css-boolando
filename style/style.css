@@ -123,6 +123,7 @@ article.product img{
   width: 100%;
 }
 
+
 div .brand-name {
   font-size: small;
 }
@@ -159,15 +160,26 @@ div span.line-through {
   /* Momentaneamente stessa altezza di footer */
 }
 
-.legal-info {
-  height: 100%;
+footer p {
+  line-height: 1.5rem;
+}
+
+footer .small {
+  font-size: .75rem;
+}
+
+footer li {
+  padding-right: .5rem;
 }
 
 .social {
-  height: 100%;
   text-align: right; 
 }
 
 .social .find-us {
   padding-right: 1rem;
+}
+
+.icons i {
+  padding-right: .5rem;
 }
