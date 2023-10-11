@@ -10,9 +10,9 @@ body {
 }
 
 /* Test */
-.border-test {
+/* .border-test {
   border: 3px dashed lightgreen ;
-}
+} */
 
 /* Generali e flex */
 .container {
@@ -33,6 +33,12 @@ body {
   align-items: center;
 }
 
+.flex-d-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 
 /* Header */
 .navigation {
@@ -50,12 +56,7 @@ body {
   color: white;
 }
 
-/* header nav {
-  min-width: 20px;
-  background-color: darkorchid;
-} */
-
-header ul {
+ul {
   list-style: none;
 }
 
@@ -65,36 +66,23 @@ header li {
 }
 
 .logo {
-  /* min-width: 20px;
-  background-color: purple; */
-
-  height: 70%;
+    height: 70%;
 
 }
 
 .shop-profile {
-  /* min-width: 20px;
-  background-color: orchid; */
-
   height: 100%;
-  padding: .7rem 0 0.5rem 0;
+  padding: .9rem 0 0.4rem 0;
 }
 
 /* Main */
 main section.container {
-  min-height: 1000px;
-  background-color: darkorange;
-
   margin-bottom: 3rem;
 }
 
 article.product {
-  background-color: cornflowerblue;
-  height: 550px;
-
   width: calc((100% / 3) - 1rem);
   margin:  1.5rem .5rem;
-  /* position: relative; */
 }
 
 .product-img-container {
@@ -160,8 +148,10 @@ div span.line-through {
 
 /* Footer */
 .footer-nav {
-  background-color: red;
-  height: 3rem;
+  background-color: #1a1a1a;
+  color: white;
+  font-size: .9rem;
+  padding: 1rem 0;
 }
 
 .footer-container {
@@ -170,15 +160,14 @@ div span.line-through {
 }
 
 .legal-info {
-  min-width: 20px;
-  background-color: purple;
-
   height: 100%;
 }
 
 .social {
-  min-width: 20px;
-  background-color: orchid;
+  height: 100%;
+  text-align: right; 
+}
 
-  height: 100%;  
+.social .find-us {
+  padding-right: 1rem;
 }
