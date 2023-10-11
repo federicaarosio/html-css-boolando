@@ -16,6 +16,17 @@
   margin: 0 auto;
 }
 
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-content: space-around; */
+}
+
+.flex-j-space-btw {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /* Header */
@@ -31,16 +42,40 @@
   /* Momentaneamente stessa altezza di .navigation */
 }
 
+header nav {
+  min-width: 20px;
+  background-color: darkorchid;
+}
 
+.logo {
+  min-width: 20px;
+  background-color: purple;
+
+  height: 100%;
+}
+
+.shop-profile {
+  min-width: 20px;
+  background-color: orchid;
+
+  height: 100%;  
+}
 
 /* Main */
 main section.container {
-  min-height: 900px;
+  min-height: 1000px;
   background-color: darkorange;
 
   margin-bottom: 3rem;
 }
 
+article.product {
+  background-color: cornflowerblue;
+  height: 500px;
+
+  width: calc((100% / 3) - 1rem);
+  margin:  1.5rem .5rem; 
+}
 
 
 /* Footer */
@@ -52,4 +87,18 @@ main section.container {
 .footer-container {
   height: 3rem;
   /* Momentaneamente stessa altezza di footer */
+}
+
+.legal-info {
+  min-width: 20px;
+  background-color: purple;
+
+  height: 100%;
+}
+
+.social {
+  min-width: 20px;
+  background-color: orchid;
+
+  height: 100%;  
 }
