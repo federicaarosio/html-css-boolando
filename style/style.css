@@ -50,7 +50,6 @@ body {
 
 .header-container {
   height: 3rem;
-  /* Momentaneamente stessa altezza di .navigation */
   font-size: .8rem;
   font-weight: bold;
   color: white;
@@ -101,32 +100,28 @@ article.product {
   position: relative;
 }
 
-
-
-article.product span.sale,
-article.product span.sustainability {
+article.product div.sale-sust-container {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
   color: white;
   font-size: .7rem;
   font-weight: bold;
-  position: absolute;
-  bottom: 2rem;
-  padding: .2rem;
   z-index: 2;
 }
 
+article.product span.sale,
+article.product span.sustainability {
+  padding: .2rem;
+}
+
 article.product span.sale {
-  left:0;
   background-color: red;
 }
 
 article.product span.sustainability {
-  left: 2.5rem;
   background-color: green;
 
-}
-
-article.product span.no-sale {
-  left: 0;
 }
 
 article.product span.like {
